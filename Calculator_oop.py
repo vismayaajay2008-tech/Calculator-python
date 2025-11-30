@@ -15,6 +15,9 @@ class Calculator:
         if b == 0:
             return "Cannot divide by zero!"
         return a / b
+        
+    def modulus(self, a, b):
+        return a % b
 
 
 # ---- Main Program ----
@@ -26,3 +29,5 @@ print("Addition:", calc.add(a, b))
 print("Subtraction:", calc.subtract(a, b))
 print("Multiplication:", calc.multiply(a, b))
 print("Division:", calc.divide(a, b))
+print("Modulus:",calc.modulus(a,b))
+
